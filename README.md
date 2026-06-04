@@ -4,8 +4,29 @@ A curated list of insanely awesome libraries, packages and resources for Quants 
 
 [![](https://awesome.re/badge.svg)](https://awesome.re)
 
+## ⭐ My Factor-Mining Stack
+
+> Personal shortlist of libraries from this list that I actually use (or am evaluating)
+> for my `factor-mining` work. Legend: ✅ using · 🔬 evaluating.
+
+| Library | Category | Status | Note |
+| --- | --- | --- | --- |
+| [pandas](https://pandas.pydata.org) / [numpy](https://www.numpy.org) | Numerical | ✅ using | Core data structures for all factor computation |
+| [polars](https://docs.pola.rs/) | Numerical | 🔬 evaluating | Faster DataFrames for large factor panels |
+| [scipy](https://www.scipy.org) | Numerical | ✅ using | Stats / optimization primitives |
+| [alphalens](https://github.com/quantopian/alphalens) | Factor Analysis | ✅ using | Factor IC / quantile / turnover performance analysis |
+| [vectorbt](https://github.com/polakowo/vectorbt) | Trading & Backtesting | 🔬 evaluating | Fast vectorized backtests of factor signals |
+| [backtrader](https://www.backtrader.com/) | Trading & Backtesting | 🔬 evaluating | Event-driven backtesting framework |
+| [PyPortfolioOpt](https://github.com/robertmartin8/PyPortfolioOpt) | Portfolio & Risk | 🔬 evaluating | Turn factors into optimized portfolios |
+| [riskfolio-lib](https://github.com/dcajasn/Riskfolio-Lib) | Portfolio & Risk | 🔬 evaluating | Portfolio optimization & risk budgeting |
+| [statsmodels](https://www.statsmodels.org/) | Time Series | ✅ using | Regression / factor-return modeling |
+| [arch](https://github.com/bashtage/arch) | Time Series | 🔬 evaluating | Volatility (GARCH) modeling |
+| [yfinance](https://github.com/ranaroussi/yfinance) | Market Data | ✅ using | Price/fundamental data feed |
+| [akshare](https://github.com/akfamily/akshare) / [tushare](https://github.com/waditu/tushare) | Market Data | 🔬 evaluating | China-market data sources |
+
 ## Contents
 
+- [⭐ My Factor-Mining Stack](#-my-factor-mining-stack)
 - [Numerical Libraries & Data Structures](#numerical-libraries-data-structures)
 - [Financial Instruments & Pricing](#financial-instruments-pricing)
 - [Technical Indicators](#technical-indicators)
